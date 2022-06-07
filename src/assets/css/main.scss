@@ -1,0 +1,34 @@
+html,body {
+  padding:0;
+  margin:0;
+  height: 100%;
+  overflow:hidden;
+}
+body .el-menu--popup{
+  padding: 0px 0px;
+}
+
+:root{
+  //头部和侧边栏字体主题色
+  --global-font-color:rgb(230,230,230);
+  //头部和侧边栏背景主题色
+  --global-background-color:rgb(54,58,70);
+}
+
+.manage-container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  padding:20px 20px 0px 20px;
+}
+
+.manage-add-or-update-button{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.el-dialog__body{
+  padding:0px;
+}

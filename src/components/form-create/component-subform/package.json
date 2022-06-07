@@ -1,0 +1,68 @@
+{
+  "_from": "@form-create/component-subform@^2.5.12",
+  "_id": "@form-create/component-subform@2.5.12",
+  "_inBundle": false,
+  "_integrity": "sha512-HU26r/peD1y+QvNdvdccexYa1LaGl3uzDG5uN4RmdfHbD+iDKI4tpTw7BrwP6YRMnb+YKEW0wOFk9z0OJzpzKQ==",
+  "_location": "/@form-create/component-subform",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@form-create/component-subform@^2.5.12",
+    "name": "@form-create/component-subform",
+    "escapedName": "@form-create%2fcomponent-subform",
+    "scope": "@form-create",
+    "rawSpec": "^2.5.12",
+    "saveSpec": null,
+    "fetchSpec": "^2.5.12"
+  },
+  "_requiredBy": [
+    "/@form-create/element-ui"
+  ],
+  "_resolved": "https://registry.npmjs.org/@form-create/component-subform/-/component-subform-2.5.12.tgz",
+  "_shasum": "47486aca8b9c95dc23ee197ad156fbe5d6eed0bc",
+  "_spec": "@form-create/component-subform@^2.5.12",
+  "_where": "D:\\workspace\\demo\\base-admin-web\\node_modules\\@form-create\\element-ui",
+  "author": {
+    "name": "xaboy"
+  },
+  "bugs": {
+    "url": "https://github.com/xaboy/form-create/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "@form-create 内置组件",
+  "files": [
+    "README.md",
+    "package.json",
+    "LICENSE",
+    "src",
+    "dist"
+  ],
+  "gitHead": "cc9121b197e8a06d662407f71b923f8462498c58",
+  "homepage": "http://www.form-create.com",
+  "jsdelivr": "./dist/index.js",
+  "keywords": [
+    "@form-create",
+    "form-create-component",
+    "form-create-common-component"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "name": "@form-create/component-subform",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xaboy/form-create.git"
+  },
+  "scripts": {
+    "bili": "cross-env bili",
+    "build": "npm-run-all clean bili",
+    "clean": "rimraf dist/"
+  },
+  "unpkg": "./dist/index.js",
+  "version": "2.5.12"
+}

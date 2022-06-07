@@ -1,0 +1,97 @@
+{
+  "_from": "@form-create/element-ui@^2.5.15",
+  "_id": "@form-create/element-ui@2.5.15",
+  "_inBundle": false,
+  "_integrity": "sha512-Pov+Zz1WIzjZSXzilMu1OdOgFgW0ge0rUjGF2o3f8n1FZ3lb9mSGS9rNVm1d/wlgxtwek2hEvUPGMTMRKG+chw==",
+  "_location": "/@form-create/element-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@form-create/element-ui@^2.5.15",
+    "name": "@form-create/element-ui",
+    "escapedName": "@form-create%2felement-ui",
+    "scope": "@form-create",
+    "rawSpec": "^2.5.15",
+    "saveSpec": null,
+    "fetchSpec": "^2.5.15"
+  },
+  "_requiredBy": [
+    "/@form-create/designer"
+  ],
+  "_resolved": "https://registry.npmjs.org/@form-create/element-ui/-/element-ui-2.5.15.tgz",
+  "_shasum": "e7720e22da35a49f67eea502a737833478b4ad78",
+  "_spec": "@form-create/element-ui@^2.5.15",
+  "_where": "D:\\workspace\\demo\\base-admin-web\\node_modules\\@form-create\\designer",
+  "author": {
+    "name": "xaboy"
+  },
+  "bugs": {
+    "url": "https://github.com/xaboy/form-create/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@form-create/component-elm-checkbox": "^2.5.15",
+    "@form-create/component-elm-frame": "^2.5.15",
+    "@form-create/component-elm-group": "^2.5.15",
+    "@form-create/component-elm-radio": "^2.5.15",
+    "@form-create/component-elm-select": "^2.5.15",
+    "@form-create/component-elm-tree": "^2.5.15",
+    "@form-create/component-elm-upload": "^2.5.15",
+    "@form-create/component-subform": "^2.5.12",
+    "@form-create/core": "^2.5.15",
+    "@form-create/utils": "^2.5.15"
+  },
+  "deprecated": false,
+  "description": "element-ui动态表单|form-create is a form generation component that can generate dynamic rendering, data collection, verification and submission functions through JSON. Supports 3 UI frameworks, and supports the generation of any Vue components. Built-in 20 kinds of commonly used form components and custom components, no matter how complex forms can be easily handled.",
+  "devDependencies": {
+    "@form-create/component-wangeditor": "^2.5.15",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "^4.5.3",
+    "@vue/composition-api": "^1.0.0-beta.22",
+    "element-ui": "^2.13.2",
+    "v-jsoneditor": "^1.4.2"
+  },
+  "files": [
+    "README.md",
+    "package.json",
+    "LICENSE",
+    "src",
+    "types",
+    "dist"
+  ],
+  "gitHead": "8c06b8fe5cf6d310e24733d86787068a7d8d2d9c",
+  "homepage": "http://www.form-create.com",
+  "jsdelivr": "./dist/form-create.min.js",
+  "keywords": [
+    "动态表单",
+    "@form-create",
+    "form-builder",
+    "form",
+    "components",
+    "vue.js",
+    "element-ui",
+    "json-form",
+    "dynamic-form"
+  ],
+  "license": "MIT",
+  "main": "./dist/form-create.min.js",
+  "module": "./dist/form-create.min.js",
+  "name": "@form-create/element-ui",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xaboy/form-create.git"
+  },
+  "scripts": {
+    "bili": "cross-env UI_LIB=element-ui bili",
+    "build": "npm-run-all clean bili",
+    "clean": "rimraf dist/",
+    "dev:ele": "vue-cli-service serve"
+  },
+  "typings": "./types/index.d.ts",
+  "unpkg": "./dist/form-create.min.js",
+  "version": "2.5.15"
+}

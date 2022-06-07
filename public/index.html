@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="pragram" content="no-cache" />
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="expires" content="0" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+
+    <title>后台管理系统Demo</title>
+    <!-- 站点配置 -->
+    <script>
+      window.SITE_CONFIG = {};
+      window.SITE_CONFIG['menuList'] = []; // 左侧菜单列表（后台返回，未做处理）
+      window.SITE_CONFIG['permissions'] = []; // 页面按钮操作权限（后台返回，未做处理）
+      window.SITE_CONFIG['dynamicRoutes'] = []; // 动态路由列表
+      window.SITE_CONFIG['dynamicMenuRoutes'] = []; // 动态(菜单)路由列表
+      window.SITE_CONFIG['dynamicMenuRoutesHasAdded'] = false; // 动态(菜单)路由是否已经添加的状态标示（用于判断是否需要重新拉取数据并进行动态添加操作）
+      window.SITE_CONFIG['crumbsTab'] = { // 内容标签页默认属性对象
+        'name': '', // 名称, 由 this.$route.name 自动赋值（默认，名称 === 路由名称 === 路由路径）
+        'params': {}, // 参数, 由 this.$route.params 自动赋值
+        'query': {}, // 查询参数, 由 this.$route.query 自动赋值
+        'menuId': '', // 菜单id（用于选中侧边栏菜单，与this.$store.state.sidebarMenuActiveName进行匹配）
+        'title': '', // 标题
+        'isTab': true, // 是否通过tab展示内容?
+        'iframeURL': '' // 是否通过iframe嵌套展示内容? (以http[s]://开头, 自动匹配)
+      };
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <strong>
+        We're sorry but vms doesn't work properly without JavaScript enabled. Please enable it to continue.
+      </strong>
+    </noscript>
+    <div id="app"></div>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+{
+  "_from": "@form-create/component-elm-select@^2.5.15",
+  "_id": "@form-create/component-elm-select@2.5.15",
+  "_inBundle": false,
+  "_integrity": "sha512-gQH/H44jsmSqZ+2emA1LlW2xP2YI9m7RyTYKCKqv0Ayq+U6hSuvH0+D0j1Sz/e+/2tXEOKraSADmI1qIxVZg3Q==",
+  "_location": "/@form-create/component-elm-select",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@form-create/component-elm-select@^2.5.15",
+    "name": "@form-create/component-elm-select",
+    "escapedName": "@form-create%2fcomponent-elm-select",
+    "scope": "@form-create",
+    "rawSpec": "^2.5.15",
+    "saveSpec": null,
+    "fetchSpec": "^2.5.15"
+  },
+  "_requiredBy": [
+    "/@form-create/element-ui"
+  ],
+  "_resolved": "https://registry.npmjs.org/@form-create/component-elm-select/-/component-elm-select-2.5.15.tgz",
+  "_shasum": "57697a956e63e55f9210a38fc16210de3bb379a2",
+  "_spec": "@form-create/component-elm-select@^2.5.15",
+  "_where": "D:\\workspace\\demo\\base-admin-web\\node_modules\\@form-create\\element-ui",
+  "author": {
+    "name": "xaboy"
+  },
+  "bugs": {
+    "url": "https://github.com/xaboy/form-create/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@form-create/utils": "^2.5.15"
+  },
+  "deprecated": false,
+  "description": "@form-create/element-ui 内置组件",
+  "files": [
+    "README.md",
+    "package.json",
+    "LICENSE",
+    "src",
+    "dist"
+  ],
+  "gitHead": "8c06b8fe5cf6d310e24733d86787068a7d8d2d9c",
+  "homepage": "http://www.form-create.com",
+  "jsdelivr": "./dist/index.js",
+  "keywords": [
+    "@form-create",
+    "form-create-component",
+    "element-ui"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "name": "@form-create/component-elm-select",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xaboy/form-create.git"
+  },
+  "scripts": {
+    "bili": "cross-env bili",
+    "build": "npm-run-all clean bili",
+    "clean": "rimraf dist/"
+  },
+  "unpkg": "./dist/index.js",
+  "version": "2.5.15"
+}

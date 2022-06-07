@@ -1,0 +1,76 @@
+{
+  "_from": "@form-create/core@^2.5.15",
+  "_id": "@form-create/core@2.5.15",
+  "_inBundle": false,
+  "_integrity": "sha512-usJJZrjwMh7/BoFOk6kntCPeV3GyokY9g7+TkKGJna2lwPqF88f6DJ6VjbVduL7/KSyNGvkFZE4neiSyfl8mew==",
+  "_location": "/@form-create/core",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@form-create/core@^2.5.15",
+    "name": "@form-create/core",
+    "escapedName": "@form-create%2fcore",
+    "scope": "@form-create",
+    "rawSpec": "^2.5.15",
+    "saveSpec": null,
+    "fetchSpec": "^2.5.15"
+  },
+  "_requiredBy": [
+    "/@form-create/element-ui"
+  ],
+  "_resolved": "https://registry.npmjs.org/@form-create/core/-/core-2.5.15.tgz",
+  "_shasum": "1dc57ae86efc90f30aebf62f40339e9058f0a7ae",
+  "_spec": "@form-create/core@^2.5.15",
+  "_where": "D:\\workspace\\demo\\base-admin-web\\node_modules\\@form-create\\element-ui",
+  "author": {
+    "name": "xaboy"
+  },
+  "bugs": {
+    "url": "https://github.com/xaboy/form-create/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@form-create/utils": "^2.5.15"
+  },
+  "deprecated": false,
+  "description": "vue动态表单,助你轻松搞定表单|form-create is a form generation component that can generate dynamic rendering, data collection, verification and submission functions through JSON. Supports 3 UI frameworks, and supports the generation of any Vue components. Built-in 20 kinds of commonly used form components and custom components, no matter how complex forms can be easily handled.",
+  "files": [
+    "README.md",
+    "package.json",
+    "LICENSE",
+    "src",
+    "types",
+    "dist"
+  ],
+  "gitHead": "8c06b8fe5cf6d310e24733d86787068a7d8d2d9c",
+  "homepage": "http://www.form-create.com",
+  "keywords": [
+    "动态表单",
+    "@form-create",
+    "form-builder",
+    "form",
+    "components",
+    "vue.js",
+    "json-form",
+    "dynamic-form"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.min.js",
+  "module": "./dist/index.min.js",
+  "name": "@form-create/core",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xaboy/form-create.git"
+  },
+  "scripts": {
+    "bili": "cross-env UI_LIB=core bili",
+    "build": "npm-run-all clean bili",
+    "clean": "rimraf dist/"
+  },
+  "typings": "./types/index.d.ts",
+  "version": "2.5.15"
+}
